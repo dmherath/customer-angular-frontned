@@ -1,0 +1,57 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(14, 138, 240);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: azure;
+}
+
+.btn-new{
+    padding: 5px 10px;
+    background-color: rgb(14, 138, 240); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-new{
+    margin-top: 50px;
+}
+
+.btn-new:hover{
+    background-color: blue;
+}
+
+.btn-update{
+    padding: 5px 10px;
+    background-color: rgb(83, 175, 7); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-delete{
+    padding: 5px 10px;
+    background-color: red; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
